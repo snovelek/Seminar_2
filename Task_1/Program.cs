@@ -13,4 +13,3 @@ else
 {
     Console.WriteLine("Не кратно");
 }
-
