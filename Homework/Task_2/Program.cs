@@ -3,7 +3,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-void holidays (int number){
+void prov (int number){
     if (number < 100)
     {
         System.Console.WriteLine("Третьей цифры нет");
@@ -15,6 +15,6 @@ void holidays (int number){
 }
 System.Console.Write("Введите число - ");
 int n = Convert.ToInt32(System.Console.ReadLine());
-holidays(n);
+prov(n);
 
 // Это я решил тему прошлой лекции по функциям сюда присоединить))
