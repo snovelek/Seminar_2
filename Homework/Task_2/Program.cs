@@ -3,13 +3,18 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
+void holidays (int number){
+    if (number < 100)
+    {
+        System.Console.WriteLine("Третьей цифры нет");
+    }
+    else
+    {
+        System.Console.WriteLine(Convert.ToString(number)[2]);
+    }
+}
 System.Console.Write("Введите число - ");
-int number = Convert.ToInt32(System.Console.ReadLine());
-if (number < 100)
-{
-    System.Console.WriteLine("Третьей цифры нет");
-}
-else
-{
-    System.Console.WriteLine(Convert.ToString(number)[2]);
-}
+int n = Convert.ToInt32(System.Console.ReadLine());
+holidays(n);
+
+// Это я решил тему прошлой лекции по функциям сюда присоединить))
